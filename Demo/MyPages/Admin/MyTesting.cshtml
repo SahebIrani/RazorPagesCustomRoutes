@@ -1,0 +1,18 @@
+@page "{text?}"
+
+@model Demo.MyPages.Admin.MyTestingModel
+
+@{
+    ViewData["Title"] = "MyPages / Admin / Index page";
+}
+
+<h1>@ViewData["Title"]</h1>
+<h2>@Model.Message</h2>
+
+<p>Use this area to provide additional information .. !!!!</p>
+
+<p>@Model.RouteDataGlobalTemplateValue</p>
+
+<p>@Model.RouteDataMyTestingTemplateeValue</p>
+
+<p>@Model.RouteDataTextTemplateValue</p>

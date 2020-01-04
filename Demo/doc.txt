@@ -1,0 +1,7 @@
+﻿https://exceptionnotfound.net/setting-a-custom-default-page-in-asp-net-core-razor-pages/
+https://www.c-sharpcorner.com/article/setting-a-custom-page-as-landing-page-in-net-core-razor-pages/
+https://github.com/aspnet/AspNetCore.Docs/tree/master/aspnetcore/razor-pages/razor-pages-conventions/samples/
+https://stackoverflow.com/questions/56340104/changing-the-default-landing-page-in-asp-net-core-razor-page
+
+
+
