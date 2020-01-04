@@ -46,15 +46,13 @@ namespace Demo
 						.AllowAnonymousToPage("/Admin/MyTesting")
 					;
 
-					options.Conventions.AddPageRoute("/Test", "/");
+					options.Conventions.AddPageRoute("/Test", "");
 
 					options.Conventions.AddPageRoute("/Admin/MyTesting", "TheMyTestingPage/{text?}");
 
 					options.Conventions.Add(new GlobalTemplatePageRouteModelConvention());
 					options.Conventions.Add(new GlobalHeaderPageApplicationModelConvention());
 					options.Conventions.Add(new GlobalPageHandlerModelConvention());
-
-
 					options.Conventions.Add(new HomePageRouteModelConvention());
 
 					options.Conventions.ConfigureFilter(new AddHeaderWithFactory());

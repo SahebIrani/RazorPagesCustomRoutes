@@ -18,13 +18,13 @@ namespace Demo.SinjulMSBH.Conventions
 
 			if (model.RelativePath.Contains("MyPages/Test"))
 			{
-				model.Selectors.Add(new SelectorModel()
-				{
-					AttributeRouteModel = new AttributeRouteModel
-					{
-						Template = string.Empty
-					}
-				});
+				//model.Selectors.Add(new SelectorModel()
+				//{
+				//	AttributeRouteModel = new AttributeRouteModel
+				//	{
+				//		Template = string.Empty,
+				//	}
+				//});
 			}
 		}
 	}
